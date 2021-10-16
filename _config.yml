@@ -1,5 +1,5 @@
 # Setup
-title: Christa's Paintings
+title: Art Prints
 url: https://ladny1.github.io/
 paginate: 1
 baseurl: ""
@@ -41,7 +41,7 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
+  - title: Prints
     url: /archive
 
   - title: About
