@@ -1,42 +1,38 @@
 ---
 layout: post
-title: Rainstorm
+title: Flaming copy
 ---
-![alt text for screen readers](/assets/LowRez49images/Rainstorm copy.jpg "Rainstorm")
+![alt text for screen readers](/assets/LowRez49images/Flaming copy.jpg "Flaming copy")
 <div id="smart-button-container">
 <div style="text-align: center;">
 <div style="margin-bottom: 1.25rem;">
-<p>Art Print</p>
-<div id="smart-button-container">
-<div style="text-align: center;">
-<div style="margin-bottom: 1.25rem;">
-<p>Art Print</p>
-<select id="item-options"><option value="9inx12in Enhanced Matte Art Print" price="1.00">9inx12in Enhanced Matte Art Print - 1.00 USD</option><option value="9inx12in Hahnemühle German Etching Print" price="1.00">9inx12in Hahnemühle German Etching Print - 1.00 USD</option><option value="12inx16in Enhanced Matte Art Print" price="2.00">12inx16in Enhanced Matte Art Print - 2.00 USD</option><option value="12inx16in Hahnemühle German Etching Print" price="2.00">12inx16in Hahnemühle German Etching Print - 2.00 USD</option></select>
-<select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+<p>Flaming copy Art Print</p>
+<select id="item-options"><option value="9inx12in Enhanced Matte Art Flaming copy Print" price=".25">9inx12in Enhanced Matte Art Flaming copy Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Flaming copy Print" price=".25">9inx12inHahnemühle German Etching Flaming copy Print - .25 USD</option></select>
+<select style="visibility: hidden" id="quantitySelect"></select>
 </div>
 <div id="paypal-button-container"></div>
 </div>
 </div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=AWrwQx91eDLrh27pGp-m6tFEQ63JvUU-YmrjkJBHvfZ3ruS-ElPBwveEKpNp8fCgpW8JQxyUHaEvA8pf&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
 <script>
 function initPayPalButton() {
 var shipping = 0;
 var itemOptions = document.querySelector("#smart-button-container #item-options");
-var quantity = parseInt(12);
+var quantity = parseInt();
 var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
 if (!isNaN(quantity)) {
 quantitySelect.style.visibility = "visible";
 }
-var orderDescription = 'Art Print';
+var orderDescription = 'Flaming copy Art Print';
 if(orderDescription === '') {
 orderDescription = 'Item';
 }
 paypal.Buttons({
 style: {
-shape: 'rect',
+shape: 'pill',
 color: 'gold',
 layout: 'vertical',
-label: 'checkout',
+label: 'paypal',
 
 },
 createOrder: function(data, actions) {

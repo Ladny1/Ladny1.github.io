@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Depths
+title: Nonchalance copy
 ---
-![alt text for screen readers](/assets/LowRez49images/Depths copy.jpg "Depths")
+![alt text for screen readers](/assets/LowRez49images/Nonchalance copy.jpg "Nonchalance copy")
 <div id="smart-button-container">
 <div style="text-align: center;">
 <div style="margin-bottom: 1.25rem;">
-<p>Depths Art Print</p>
-<select id="item-options"><option value="9inx12in Enhanced Matte Art Depths Print" price=".25">9inx12in Enhanced Matte Art Depths Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Depths Print" price=".25">9inx12inHahnemühle German Etching Depths Print - .25 USD</option></select>
+<p>Nonchalance copy Art Print</p>
+<select id="item-options"><option value="9inx12in Enhanced Matte Art Nonchalance copy Print" price=".25">9inx12in Enhanced Matte Art Nonchalance copy Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Nonchalance copy Print" price=".25">9inx12inHahnemühle German Etching Nonchalance copy Print - .25 USD</option></select>
 <select style="visibility: hidden" id="quantitySelect"></select>
 </div>
 <div id="paypal-button-container"></div>
@@ -23,7 +23,7 @@ var quantitySelect = document.querySelector("#smart-button-container #quantitySe
 if (!isNaN(quantity)) {
 quantitySelect.style.visibility = "visible";
 }
-var orderDescription = 'Depths Art Print';
+var orderDescription = 'Nonchalance copy Art Print';
 if(orderDescription === '') {
 orderDescription = 'Item';
 }

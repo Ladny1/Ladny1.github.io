@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Daybreak
+title: llamas copy
 ---
-![alt text for screen readers](/assets/LowRez49images/daybreak copy.jpg "daybreak")
+![alt text for screen readers](/assets/LowRez49images/llamas copy.jpg "llamas copy")
 <div id="smart-button-container">
 <div style="text-align: center;">
 <div style="margin-bottom: 1.25rem;">
-<p>Daybreak Art Print</p>
-<select id="item-options"><option value="9inx12in Enhanced Matte Art Daybreak Print" price=".25">9inx12in Enhanced Matte Art Daybreak Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Daybreak Print" price=".25">9inx12inHahnemühle German Etching Daybreak Print - .25 USD</option></select>
+<p>llamas copy Art Print</p>
+<select id="item-options"><option value="9inx12in Enhanced Matte Art llamas copy Print" price=".25">9inx12in Enhanced Matte Art llamas copy Print - .25 USD</option><option value="9inx12inHahnemühle German Etching llamas copy Print" price=".25">9inx12inHahnemühle German Etching llamas copy Print - .25 USD</option></select>
 <select style="visibility: hidden" id="quantitySelect"></select>
 </div>
 <div id="paypal-button-container"></div>
@@ -23,7 +23,7 @@ var quantitySelect = document.querySelector("#smart-button-container #quantitySe
 if (!isNaN(quantity)) {
 quantitySelect.style.visibility = "visible";
 }
-var orderDescription = 'Daybreak Art Print';
+var orderDescription = 'llamas copy Art Print';
 if(orderDescription === '') {
 orderDescription = 'Item';
 }
