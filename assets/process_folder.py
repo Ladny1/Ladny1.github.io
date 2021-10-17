@@ -2,7 +2,7 @@ import os
 from string import Template
 
 print("Processing")
-directory ='LowRez49images'
+directory ='images'
 date = "2020-10-16-"
 with open('painting_page.txt', 'r') as f:
     template = Template(f.read())
@@ -14,6 +14,6 @@ with open('painting_page.txt', 'r') as f:
                       'key':'value'}
             result = template.substitute(d)
             outputfilename = date + title.replace(" ", "-") + ".md"
-            text_file = open("out/" + outputfilename, "w")
+            text_file = open("out/" +outputfilename, "w")
             n = text_file.write(result)
             text_file.close()
