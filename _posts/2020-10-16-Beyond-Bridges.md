@@ -1,13 +1,13 @@
 ---
 layout: post
-title: llamas copy
+title: Beyond Bridges
 ---
-![alt text for screen readers](/assets/LowRez49images/llamas copy.jpg "llamas copy")
+![alt text for screen readers](/assets/images/Beyond Bridges.jpg "Beyond Bridges")
 <div id="smart-button-container">
 <div style="text-align: center;">
 <div style="margin-bottom: 1.25rem;">
-<p>llamas copy Art Print</p>
-<select id="item-options"><option value="9inx12in Enhanced Matte Art llamas copy Print" price=".25">9inx12in Enhanced Matte Art llamas copy Print - .25 USD</option><option value="9inx12inHahnemühle German Etching llamas copy Print" price=".25">9inx12inHahnemühle German Etching llamas copy Print - .25 USD</option></select>
+<p>Beyond Bridges Art Print</p>
+<select id="item-options"><option value="9inx12in Enhanced Matte Art Beyond Bridges Print" price=".25">9inx12in Enhanced Matte Art Beyond Bridges Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Beyond Bridges Print" price=".25">9inx12inHahnemühle German Etching Beyond Bridges Print - .25 USD</option></select>
 <select style="visibility: hidden" id="quantitySelect"></select>
 </div>
 <div id="paypal-button-container"></div>
@@ -23,7 +23,7 @@ var quantitySelect = document.querySelector("#smart-button-container #quantitySe
 if (!isNaN(quantity)) {
 quantitySelect.style.visibility = "visible";
 }
-var orderDescription = 'llamas copy Art Print';
+var orderDescription = 'Beyond Bridges Art Print';
 if(orderDescription === '') {
 orderDescription = 'Item';
 }

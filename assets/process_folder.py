@@ -11,7 +11,9 @@ with open('painting_page.txt', 'r') as f:
         if (entry.path.endswith(".jpg") and entry.is_file()):
             title = entry.name.split(".")[0]
             d = {'title':title,
-                      'key':'value'}
+                      'key':'value',
+
+                      'folder':directory}
             result = template.substitute(d)
             outputfilename = date + title.replace(" ", "-") + ".md"
             text_file = open("out/" +outputfilename, "w")

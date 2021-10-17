@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Beyond bridges copy
+title: Moonlight Foragers
 ---
-![alt text for screen readers](/assets/LowRez49images/Beyond bridges copy.jpg "Beyond bridges copy")
+![alt text for screen readers](/assets/images/Moonlight Foragers.jpg "Moonlight Foragers")
 <div id="smart-button-container">
 <div style="text-align: center;">
 <div style="margin-bottom: 1.25rem;">
-<p>Beyond bridges copy Art Print</p>
-<select id="item-options"><option value="9inx12in Enhanced Matte Art Beyond bridges copy Print" price=".25">9inx12in Enhanced Matte Art Beyond bridges copy Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Beyond bridges copy Print" price=".25">9inx12inHahnemühle German Etching Beyond bridges copy Print - .25 USD</option></select>
+<p>Moonlight Foragers Art Print</p>
+<select id="item-options"><option value="9inx12in Enhanced Matte Art Moonlight Foragers Print" price=".25">9inx12in Enhanced Matte Art Moonlight Foragers Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Moonlight Foragers Print" price=".25">9inx12inHahnemühle German Etching Moonlight Foragers Print - .25 USD</option></select>
 <select style="visibility: hidden" id="quantitySelect"></select>
 </div>
 <div id="paypal-button-container"></div>
@@ -23,7 +23,7 @@ var quantitySelect = document.querySelector("#smart-button-container #quantitySe
 if (!isNaN(quantity)) {
 quantitySelect.style.visibility = "visible";
 }
-var orderDescription = 'Beyond bridges copy Art Print';
+var orderDescription = 'Moonlight Foragers Art Print';
 if(orderDescription === '') {
 orderDescription = 'Item';
 }

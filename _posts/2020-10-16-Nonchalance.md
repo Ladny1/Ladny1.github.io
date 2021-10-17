@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Flaming copy
+title: Nonchalance
 ---
-![alt text for screen readers](/assets/LowRez49images/Flaming copy.jpg "Flaming copy")
+![alt text for screen readers](/assets/images/Nonchalance.jpg "Nonchalance")
 <div id="smart-button-container">
 <div style="text-align: center;">
 <div style="margin-bottom: 1.25rem;">
-<p>Flaming copy Art Print</p>
-<select id="item-options"><option value="9inx12in Enhanced Matte Art Flaming copy Print" price=".25">9inx12in Enhanced Matte Art Flaming copy Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Flaming copy Print" price=".25">9inx12inHahnemühle German Etching Flaming copy Print - .25 USD</option></select>
+<p>Nonchalance Art Print</p>
+<select id="item-options"><option value="9inx12in Enhanced Matte Art Nonchalance Print" price=".25">9inx12in Enhanced Matte Art Nonchalance Print - .25 USD</option><option value="9inx12inHahnemühle German Etching Nonchalance Print" price=".25">9inx12inHahnemühle German Etching Nonchalance Print - .25 USD</option></select>
 <select style="visibility: hidden" id="quantitySelect"></select>
 </div>
 <div id="paypal-button-container"></div>
@@ -23,7 +23,7 @@ var quantitySelect = document.querySelector("#smart-button-container #quantitySe
 if (!isNaN(quantity)) {
 quantitySelect.style.visibility = "visible";
 }
-var orderDescription = 'Flaming copy Art Print';
+var orderDescription = 'Nonchalance Art Print';
 if(orderDescription === '') {
 orderDescription = 'Item';
 }

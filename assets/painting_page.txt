@@ -2,7 +2,7 @@
 layout: post
 title: $title
 ---
-![alt text for screen readers](/assets/images/$title.jpg "$title")
+![alt text for screen readers](/assets/$folder/$title.jpg "$title")
 <div id="smart-button-container">
 <div style="text-align: center;">
 <div style="margin-bottom: 1.25rem;">
